@@ -1,7 +1,7 @@
 namecheap_dynamic_dns
 =====================
 
-A script which will update an A record for any namecheap domain with dynamic DNS enabled
+A script which will update an A record, setting its value to the external ip returned by ipecho.net, for any namecheap domain with dynamic DNS enabled
 
 configuration
 =============
