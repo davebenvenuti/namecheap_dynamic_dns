@@ -7,7 +7,8 @@ install
 =======
 
 ```
-sudo -O /usr/local/bin/update_namecheap_dynamic_dns.sh https://raw.github.com/davebenvenuti/namecheap_dynamic_dns/master/update_namecheap_dynamic_dns.sh
+sudo wget -O /usr/local/bin/update_namecheap_dynamic_dns.sh https://raw.github.com/davebenvenuti/namecheap_dynamic_dns/master/update_namecheap_dynamic_dns.sh
+sudo chmod 775 /usr/local/bin/update_namecheap_dynamic_dns.sh
 ```
 
 configuration
